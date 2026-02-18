@@ -1,0 +1,8 @@
+Problem:
+The task is to write a Python program that prints 'how are you' to the console.
+
+Your Code:
+print('how are you')
+
+Feedback:
+You did a great job, your code is correct. It prints the message as required because the print function in Python is used to output text to the screen and you used it correctly with the message 'how are you' inside the parentheses.
