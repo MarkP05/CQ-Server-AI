@@ -5,7 +5,7 @@ from parsons import run_parsons_mode
 
 app = FastAPI()
 
-# ---------- Request Models ----------
+# ---- Request Models ----
 
 class InputsRequest(BaseModel):
     player_input: str
@@ -15,7 +15,7 @@ class ParsonsRequest(BaseModel):
     player_input: str
     solution: str
 
-# ---------- Endpoints ----------
+# ---- Endpoints ----
 
 @app.post("/inputs")
 def inputs_endpoint(data: InputsRequest):

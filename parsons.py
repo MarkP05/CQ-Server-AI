@@ -1,8 +1,9 @@
 import os
+from config import get_api_key
 from groq import Groq
 
 # ---- INITIALIZE GROQ CLIENT ----
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+client = Groq(api_key=get_api_key())
 
 # ---- PARSONS PROMPT ----
 def build_prompt(player_input, sample_solution):
