@@ -1,9 +1,17 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from inputs import run_inputs_mode
 from parsons import run_parsons_mode
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["https://compilequest.org"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # ---- Request Models ----
 
