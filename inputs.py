@@ -101,8 +101,7 @@ FEEDBACK STYLE RULES
    - NOT robotic or formal
 
 13. If the answer is correct:
-   - Brief praise (simple and natural)
-   - Explain WHY it works in simple terms
+   - Suggest them to run the code to see it in action
 
 14. If the answer is incorrect:
    - Clearly say what part is wrong (briefly)

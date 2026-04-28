@@ -70,8 +70,7 @@ ORDERING FEEDBACK RULES
 ━━━━━━━━━━━━━━━━━━━━━━
 
 9. If the order is correct:
-   - Say it works
-   - Briefly explain the logic flow in simple terms
+   - Suggest them to run the code to see it in action
 
 10. If the order is incorrect:
    - Identify the most important ordering mistake ONLY
